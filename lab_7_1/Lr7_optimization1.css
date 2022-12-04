@@ -1,0 +1,46 @@
+body {
+        background-color: #dddaff;
+    }
+.poem {
+        background-color: #fff;
+        width: 500px;
+        display: table;
+        white-space: pre-line;
+        word-wrap: break-word;
+        margin: 80px auto;
+        padding: 1em;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        border: 2px solid #eee;
+        text-align: center;
+    }
+.author  {
+        text-align: right;
+}
+@media only screen and (max-width: 800px) {
+        .poem {
+                color: red;
+                width: 333px;
+
+        }
+        h1 {
+                font-size: 24px;
+        }
+        .author {
+                color: red;
+        }
+}
+@media only screen and (max-width: 480px) {
+        .poem {
+                color: blue;
+                width: 240px;
+        }
+        h1 {
+                font-size: 17px;
+        }
+        .author {
+                color: blue;
+        }
+}
+
+
